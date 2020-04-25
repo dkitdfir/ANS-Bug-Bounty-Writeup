@@ -50,3 +50,13 @@ If XSS vulnerability is tested on the 'Testing' page, flag 3 of the level could 
 
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-4-1.png)
 
+<b><i>[Flag 5] Micro-CMS v1</i></b>
+
+Script tags are not the only method to check for weaknesses. In the 'Markdown Test' page there is a button available associated with an image. An onclick parameter could be added to test further. The alert generated exposes the final Micro-CMS v1 flag.
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-5.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-5-1.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-5-2.png)
+
