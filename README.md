@@ -9,3 +9,23 @@ The first one is relatively straightforward. The content says nothing but, 'Welc
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-1.png)
 
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-1-1.png)
+
+<b><i>Micro-CMS v1 [Flag 2]</i></b>
+
+In this scenario, creating a new page can be tested. The page id is shown in the URL after it is done. When the id is changed to 1 and viewed, the 'Testing' page is available. When the id is changed to 2 and viewed, the 'Markdown Test' page is available. These are the only 2 visible areas that are provided in addition to the custom page that was created. When other ids are checked, it is quite apparent that they give a 404 error which means the resources are not available with the exception of page number 7 that is forbidden. If editing the #7 page is tried, the form containing another flag can be viewed.
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-1.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-2.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-3.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-4.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-5.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-6.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-7.png)
