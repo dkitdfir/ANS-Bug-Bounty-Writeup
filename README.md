@@ -1,6 +1,6 @@
 # ANS-Bug-Bounty-Writeup
 
-<b><font size="24">Hacker 101 Capture The Flag [CTF] Challenge</font></b>
+<b><u>Hacker 101 Capture The Flag [CTF] Challenge</u></b>
 
 <b>A little something to get you started [Flag 1]</b>
 
