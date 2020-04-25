@@ -29,3 +29,15 @@ In this scenario, creating a new page can be tested. The page id is shown in the
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-6.png)
 
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-2-7.png)
+
+<b><i>[Flag 3] Micro-CMS v1</i></b>
+
+For the 2nd Flag of Micro-CMS v1, SQLi can be tried on the 'Testing' page. Although no indication is shown on the default URL, trying the same on editing the page reveals another flag.
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-3.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-3-1.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-3-2.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-3-3.png)
