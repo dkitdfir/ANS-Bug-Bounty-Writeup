@@ -41,3 +41,12 @@ For the 2nd Flag of Micro-CMS v1, SQLi can be tried on the 'Testing' page. Altho
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-3-2.png)
 
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-3-3.png)
+
+<b><i>[Flag 4] Micro-CMS v1</i></b>
+
+If XSS vulnerability is tested on the 'Testing' page, flag 3 of the level could be retrieved.
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-4.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-4-1.png)
+
