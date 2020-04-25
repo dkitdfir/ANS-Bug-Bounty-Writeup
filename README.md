@@ -60,3 +60,24 @@ Script tags are not the only method to check for weaknesses. In the 'Markdown Te
 
 ![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-5-2.png)
 
+<b><i>[Flag 6] Micro-CMS v2</i></b>
+
+There is a login prompt. Trying weak credentials like admin, password does not help. SQLi can be attempted. It gives a traceback error with sensitive data like table name 'admins'. An SQL query can be used instead of the default credentials to perform a successful SQL injection attack and log in. A new flag is present on the private page that is now visible.
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-6.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-6-1.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-6-2.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-6-3.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-6-4.png)
+
+![](https://github.com/dkitdfir/ANS-Bug-Bounty-Writeup/blob/master/images/flag-6-5.png)
+
+
+
+
+
+
